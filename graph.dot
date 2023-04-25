@@ -1,0 +1,11 @@
+digraph Automate {
+ rankdir=LR
+ node [shape=doublecircle, color=blue]; 5 
+ node [shape=doublecircle, color=green]; 0 
+ node [shape=circle, color=black]; 
+  0 -> 1 [label="b"]
+  1 -> 2 [label="$"]
+  2 -> 3 [label="c"]
+  3 -> 4 [label="$"]
+  4 -> 5 [label="a"]
+}
